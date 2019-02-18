@@ -1,0 +1,6 @@
+streamline:
+  type: Array # One of Array | LinkedList. If the parameter is not specified, Array-based implementation will be injected
+  capacityA: 6
+  capacityB: 3
+  jointPointsA: 2, 3, 5 # Starts from zero. Ends on (capacity - 1)
+  jointPointsB: 0, 1, 2
