@@ -9,11 +9,11 @@ import java.util.List;
 @Data
 public class GeneralStatistics<T> {
 
-    Integer capacityA;
-    Integer capacityB;
-    Integer sizeA;
-    Integer sizeB;
-    List<T> streamA;
-    List<T> streamB;
+    private Integer capacityA;
+    private Integer capacityB;
+    private Integer sizeA;
+    private Integer sizeB;
+    private List<T> streamA;
+    private List<T> streamB;
 
 }
